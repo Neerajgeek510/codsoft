@@ -1,1 +1,2 @@
-its 3rd task completed of codsoft a smart calculator its also calculate your present age ..
+Here i complete all task given by Codsoft u can see a samrt calculator, landing page and my portfolio also
+
