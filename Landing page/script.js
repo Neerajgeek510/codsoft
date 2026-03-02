@@ -1,3 +1,4 @@
 function showMessage(){
-    alert("Welcome! Your landing page is working 🚀");
+    alert("Welcome! In our Landing page 🚀");
+
 }
