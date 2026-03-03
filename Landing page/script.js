@@ -1,4 +1,5 @@
 function showMessage(){
-    alert("Welcome! In our Landing page 🚀");
+    alert("Welcome! Lets make a crazy website with us 🚀");
 
 }
+
