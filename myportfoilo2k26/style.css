@@ -4,20 +4,17 @@
     box-sizing:border-box;
     font-family: Arial, sans-serif;
 }
-
 body{
     background:#f4f6f9;
     color:#333;
     line-height:1.6;
 }
-
 header{
     text-align:center;
     padding:40px 20px;
     background:#111;
     color:white;
 }
-
 .profile-img{
     width:160px;
     height:160px;
@@ -26,7 +23,6 @@ header{
     border:5px solid white;
     margin-top:20px;
 }
-
 section{
     max-width:900px;
     margin:30px auto;
@@ -35,13 +31,11 @@ section{
     border-radius:10px;
     box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
-
 h2{
     margin-bottom:15px;
     border-bottom:2px solid #eee;
     padding-bottom:5px;
 }
-
 .links a{
     display:inline-block;
     margin:8px;
@@ -56,7 +50,6 @@ h2{
 .links a:hover{
     background:#444;
 }
-
 .skills span{
     display:inline-block;
     background:#eee;
@@ -64,22 +57,41 @@ h2{
     margin:5px;
     border-radius:5px;
 }
-
-.project{
-    margin-bottom:15px;
+.project a{
+    width:250px;
+    margin:10px;
+    border-radius:5px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.2);
+    text-decoration: none;
+    color: rgb(8, 8, 250);
+    justify-content: center;
 }
-
+.project a:hover{
+    background-color: #4b4949;
+}
 .certificates img{
     width:150px;
     margin:10px;
     border-radius:8px;
     box-shadow:0 2px 6px rgba(0,0,0,0.2);
 }
-
 footer{
     text-align:center;
     padding:20px;
     background:#111;
     color:white;
     margin-top:30px;
+}
+.download-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 120px;
+} 
+.download-btn:hover{
+    background-color: #444;
 }
